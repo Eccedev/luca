@@ -1,0 +1,63 @@
+
+.navbar {
+    box-shadow: 0 4px 6px 0 rgba(0, 95, 4, 0.18);
+    background-image: radial-gradient(rgb(102, 251, 104), rgb(0, 255, 0), rgb(0, 250, 100), rgb(28, 255, 180));
+  }
+  .navbar-nav .nav-link {
+    color: #000000;
+    &:hover {
+      color: #0c0c0c;
+    }
+  }
+  @media screen and (min-width: 769px) {
+    .btn {
+      background-color: #2b2a2a;
+      color: #ffffff;
+      border-radius: 0;
+      border-width: 2px;
+    }
+    .btn:hover {
+      background-color: #ffffff;
+      color: #000000;
+      border: 2px solid #1c1c1c;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .btn {
+      padding: 0;
+      color: #000000;
+    }
+  }
+
+.banner {
+    background-image: radial-gradient(rgb(102, 251, 104), rgb(0, 255, 0), rgb(0, 250, 100), rgb(28, 255, 180));
+    width: 100%;
+    padding: 2em 0;
+    color: rgb(0, 0, 0);
+  }
+  .row {
+    align-items: center;
+  }
+  h1 {
+    text-shadow: 2px 2px 2px #983bf5;
+  }
+  h1.display-4.fw-bold {
+    font-size: 4rem; 
+  }
+  /*.btn {
+    padding: 0.5em 1.5em;
+    border-radius: 2em;
+    box-shadow: 5px 5px 5px rgba(1, 248, 14, 0.15);
+  }*/
+  .footer {
+    background-image: radial-gradient(rgb(102, 251, 104), rgb(0, 255, 0), rgb(0, 250, 100), rgb(28, 255, 180));
+  }
+  .nomics {
+    background-image: radial-gradient(rgb(137, 250, 139), rgb(83, 249, 83));
+  }
+  @media screen and (max-width: 567px) {
+    .banner {
+      text-align: center;
+    }
+  }
+   
